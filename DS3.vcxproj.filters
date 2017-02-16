@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.cpp">
+      <Filter>addons\ofxKinectCommonBridge\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{534cf118-f659-4223-b163-153d9f8567cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectCommonBridge">
+      <UniqueIdentifier>{dbde265b-fb78-469f-8c08-97bd26c7103f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectCommonBridge\src">
+      <UniqueIdentifier>{13b53aac-97b6-4cdf-8b7b-9c56e5eecc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectCommonBridge\libs">
+      <UniqueIdentifier>{bd507782-30be-4483-8938-5883215e2fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectCommonBridge\libs\KinectCommonBridge">
+      <UniqueIdentifier>{48986309-a89b-484c-9c53-7e60844ce5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include">
+      <UniqueIdentifier>{196b392a-6e70-4cbc-95b9-dead60063c05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectCommonBridge\src\ofxKinectCommonBridge.h">
+      <Filter>addons\ofxKinectCommonBridge\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include\KinectCommonBridgeLib.h">
+      <Filter>addons\ofxKinectCommonBridge\libs\KinectCommonBridge\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
